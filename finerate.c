@@ -25,10 +25,9 @@ int main(){
 	//finerate
 
 	if(daysoverdue <= 7){finerate=20;}
-
-		else if(daysoverdue<=14){finerate=50;}
-
-			else if(daysoverdue<=14){finerate;}
+      else if(daysoverdue<=14){finerate=50;}
+       else if(daysoverdue<=14){finerate;}
+	else{finerate=100;}
 				
    //the total fine amount
 
