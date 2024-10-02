@@ -1,3 +1,9 @@
+//Program to calculate fine rate
+/*
+Author:Alpha Githinji
+Reg no:CT102/G/24626/24
+Date:29/9/24
+*/
 #include<stdio.h>
 
 int main(){
@@ -12,10 +18,10 @@ int main(){
 	printf("Enter book Id:");
 	scanf("%d",&bookId);
 	
-	printf("Enter due date(YYYYMMDD):");
+	printf("Enter due date:");
 	scanf("%d",&duedate);
 	
-	printf("Enter Return Date(YYYYMMDD):");
+	printf("Enter Return Date:");
 	scanf("%d",&returndate);
 	
 	// number of overdue days
@@ -25,8 +31,9 @@ int main(){
 	//finerate
 
 	if(daysoverdue <= 7){finerate=20;}
+		
       else if(daysoverdue<=14){finerate=50;}
-       else if(daysoverdue<=14){finerate;}
+       
 	else{finerate=100;}
 				
    //the total fine amount
