@@ -1,3 +1,8 @@
+/*
+Alpha Githinji
+CT102/G/24626/24
+	*/
+
 #include<stdio.h>
 int main(){
 	int i,j;
