@@ -1,3 +1,8 @@
+/*
+Alpha Githinji
+CT102/G/24626/24
+*/
+
 #include<stdio.h> 
 #include<math.h>
 int sum(int a,int b,int c);
