@@ -14,7 +14,7 @@ float calculateChargesPerUnit(int unitsconsumed) {
     return chargeperunit;
 }
 
-/*calculate the total bill with surcharge*/
+//calculate the total bill with surcharge
 float calculateTotalBill(int unitsconsumed, float chargesPerUnit) {
     float totalBill = unitsconsumed * chargesPerUnit;
     float surcharge = 0;
@@ -31,7 +31,7 @@ float calculateTotalBill(int unitsconsumed, float chargesPerUnit) {
     return totalBill;
 }
 
-/*display customer's detyails*/
+//display customer's details
 void displayBill(int customerId, char customerName[], int unitsconsumed, float chargesPerUnit, float totalBill) {
 	
     printf("Customer's Id: %d\n", customerId);
