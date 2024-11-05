@@ -14,7 +14,7 @@ struct Student {
 
 int main() {
 	int i;
-    struct students ;
+    
     FILE *file = fopen("C:\\Users\\HP Elitebook\\Desktop\\C programs\\students.txt", "w");
 
     if (file == NULL) {
