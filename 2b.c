@@ -15,7 +15,7 @@ int main() {
     printf("Enter the number of students: ");
     scanf("%d", &n);
 
-    struct Student ;
+
     FILE *file = fopen("C:\\Users\\HP Elitebook\\Desktop\\C programs\\students2.txt", "a");
 
     if (file == NULL) {
